@@ -1,3 +1,14 @@
 import { Routes } from '@angular/router';
+import { DrinksListComponent } from './pages/drinks-list/drinks-list.component';
+import { CartComponent } from './pages/cart/cart.component';
 
-export const routes: Routes = [];
+export const routes: Routes = [{
+    path: '',
+    pathMatch: 'full',
+    component: DrinksListComponent
+},
+{
+    path: 'cart',
+    component: CartComponent
+}
+];
