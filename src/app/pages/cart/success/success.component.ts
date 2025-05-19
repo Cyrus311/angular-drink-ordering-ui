@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { PayType } from '../../../commons/enums/payType';
+import { PayType } from '../../../common/enums/payType';
 
 @Component({
   selector: 'app-success',

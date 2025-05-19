@@ -2,7 +2,7 @@ import { Component, computed, inject, signal } from '@angular/core';
 import { Router } from '@angular/router';
 import { CartService } from '../../../services/cart.service';
 import { PrimaryButtonComponent } from "../../../components/primary-button/primary-button.component";
-import { PayType } from '../../../commons/enums/payType';
+import { PayType } from '../../../common/enums/payType';
 
 @Component({
   selector: 'app-order-summary',
