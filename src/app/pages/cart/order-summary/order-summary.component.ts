@@ -21,7 +21,7 @@ import { PrimaryButtonComponent } from "../../../components/primary-button/prima
       <div class="flex gap-4 mt-2">
         <app-primary-button label="Pay with Card"/>
         @if (total() <= 10) {
-            <app-primary-button label="Pay with Cash" [disabled]="total() <= 10"/>
+            <app-primary-button label="Pay with Cash" [disabled]="total() > 10"/>
         } @else {
             You can only pay with card after $10 total!
         }
